@@ -4,7 +4,8 @@
   "description": "Project Tailwind 2",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tw:build": "tailwindcss -i ./src/css/tailwind.css -o ./public/css/tailwind.css --watch"
   },
   "author": "",
   "license": "ISC",
@@ -14,3 +15,4 @@
     "tailwindcss": "^3.1.8"
   }
 }
+
